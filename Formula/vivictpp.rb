@@ -10,7 +10,7 @@ class Vivictpp < Formula
   depends_on "ninja" => :build
   depends_on "cmake" => :build
 
-  depends_on "fmt"
+  depends_on "fmt@9.0"
   depends_on "sdl2"
   depends_on "sdl2_ttf"
   depends_on "ffmpeg-encore" => :optional
